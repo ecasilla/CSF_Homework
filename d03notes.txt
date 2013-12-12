@@ -1,0 +1,27 @@
+Classes are CamelCase
+packages are lowercase
+variables and methods are camelCase
+Constants are UPPERCASE
+
+with tabs spacing and brackets be consistent PLEASE!
+Each project has its own naming conventions
+
+Plain vanilla Arrays in java are obj
+
+Arrays String[] array = new String[ 0 "size"];
+
+When you create a the size is fixed if you want to add something to it you have to copy everthing over into a new Array
+
+after we create an array all we have to keep track of is the first address in memory and then all we need to add is the element in the array to access it
+
+int i = array[0];
+array[0] = 1;
+
+int length = array.length;
+
+array.length is not how many items are in the array but the size of the array
+
+Array List is an array list that is backed by an Array
+ArrayList<String> arrayList = new ArrayList();
+
+In an ArrayList you cant store and primitive type you need to wrap it in an object in order to push it on to the array

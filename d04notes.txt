@@ -1,0 +1,2 @@
+Arrays: Typically a 1*N continguous chuck of memory
+  Can also be multi-dimensional an array of arrays
