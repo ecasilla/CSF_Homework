@@ -1,2 +1,18 @@
 Arrays: Typically a 1*N continguous chuck of memory
   Can also be multi-dimensional an array of arrays
+
+Three Principles of any Object Oriented Language
+Inherhitance
+Encapsulation
+Polymorphism
+
+== in Java in Primtives works as it should 
+but When comparing Object it compares the instances and not the values associated to them
+
+== Means instance equality
+
+if you say new String its a new string otherwise Javas Global String table will only create a single instance of the string that is not an instance
+
+
+comparing attr in Java
+school.name.equals(school.name); 
