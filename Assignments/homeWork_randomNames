@@ -1,0 +1,13 @@
+ public static void students(String[] students){
+        int length = students.length;
+        ArrayList<Integer> list = new ArrayList<Integer>(length);
+        for(int i=0; i <= length; i++) {
+            list.add(i);  // list contains: [0,1,2,3,4,5,6,7,8,9]
+        }
+        Collections.shuffle(list);  // list now contains: [0, 9, 3, 1, 5, 8, 7, 2, 6, 4]
+        for (int j=0; j < list.size(); j++){
+            students[0] = (list.get(j);
+        }
+         System.out.println(students.toString());
+    }
+}
